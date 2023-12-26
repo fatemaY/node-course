@@ -1,0 +1,11 @@
+h3, h1{
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,22 @@
+What are 3 things node.js has that the client side javascript doesn’t
+have. And the reasons why.
+1- File System Access: Node.js provides access to the file system, allowing server-side applications to read, write, and manipulate files. This is essential for server-side tasks like reading configuration files, logging, and interacting with the server's file system.
+Module System:
+
+2- Module System: Node.js has a built-in module system that enables developers to organize their code into reusable and modular components. This helps in maintaining a clean and structured codebase, facilitating the separation of concerns and promoting code reuse. In contrast, client-side JavaScript traditionally relied on script tags and global namespaces before ECMAScript modules were widely supported.
+Access to Low-Level Networking APIs:
+
+3- Access to Low-Level Networking APIs: Node.js provides low-level networking APIs, such as the net and http modules, which allow developers to create servers and handle network communication directly. This is crucial for building scalable server applications that handle a large number of concurrent connections. Client-side JavaScript does not have direct access to these APIs due to security and sandboxing considerations in web browsers.
+Client-Side JavaScript Features Not Present in Node.js:
+DOM Manipulation:
+
+What are 3 things the client side javascript has that node.js doesn’t
+have. And the reasons why
+
+1- DOM Manipulation: Client-side JavaScript operates within a web browser and has direct access to the Document Object Model (DOM). This allows developers to dynamically manipulate the content and structure of a web page, responding to user interactions and updating the UI in real-time. Node.js, being server-side, does not have a DOM to manipulate.
+Web APIs and Browser-Specific Functionality:
+
+2- Web APIs and Browser-Specific Functionality: Client-side JavaScript has access to various browser-specific APIs, such as the window object, localStorage, and fetch for making HTTP requests. These APIs enable interactions with the user's browser and local storage. These functionalities are not applicable to Node.js, which runs outside of the browser environment.
+Event Handling for User Interactions:
+
+3- Event Handling for User Interactions: Client-side JavaScript can handle user interactions, such as mouse clicks, keyboard events, and form submissions, through the browser's event system. This enables developers to create responsive and interactive web applications. Node.js, on the other hand, is typically used for server-side logic and lacks direct access to browser events.
